@@ -10,7 +10,4 @@
     public var speakingColor = UIColor.clear
     
     public var videoAspect: VTUXVideoAspect = .fill
-    
-    @available(iOS, obsoleted: 1, renamed: "speakingColor") // Deprecated: 1.2.7.
-    public var speakingUserColor = UIColor.clear
 }
